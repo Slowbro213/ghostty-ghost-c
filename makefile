@@ -1,7 +1,7 @@
 # Makefile
 
 # Compiler and flags
-CC := gcc
+CC := cc
 CFLAGS := -Wall -Wextra -Os -s -ffunction-sections -fdata-sections -Wl,--gc-sections -flto -I./lib
 LDFLAGS :=
 
